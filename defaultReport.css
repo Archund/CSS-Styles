@@ -1,0 +1,17 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    text-align:justify;
+}
+
+.left       { text-align:left;    }
+.center     { text-align:center;  }
+.justify    { text-align:justify; }
+
+img         { max-height: 700px;  }
+
+svg, img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    page-break-inside: avoid;
+}
