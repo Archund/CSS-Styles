@@ -1,3 +1,6 @@
+/*  For use with markdown-preview-enhanced*/
+/*  https://shd101wyy.github.io/markdown-preview-enhanced/ */
+
 body {
     font-family: "Times New Roman", Times, serif;
     text-align:justify;
@@ -15,3 +18,10 @@ svg, img {
     margin-right: auto;
     page-break-inside: avoid;
 }
+
+
+
+
+
+
+      

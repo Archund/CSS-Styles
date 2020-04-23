@@ -1,0 +1,146 @@
+/*  For use with markdown-preview-enhanced*/
+/*  https://shd101wyy.github.io/markdown-preview-enhanced/ */
+
+
+/* Colors */
+/* https://www.samclarke.com/assets/migrating-to-hugo/github.html */
+
+/* Code blocks */
+pre[class*="language-"] {
+  background: var(--color0);
+  color: var(--color5);
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+  background: var(--color2);
+}
+
+
+.token.comment,
+.token.blockquote                           { color: var(--color3); }
+
+.token.operator,
+.token.symbol,
+.token.property                             { color: var(--color5); }
+ 
+.token.variable,
+.token.url-reference,
+.token.tag                                  { color: var(--color8); }
+
+.token.number,
+.token.boolean,
+.token.constant,
+.token.entity,
+.token.url,
+.token.list,
+.token.attr-value                           { color: var(--color9); }
+
+.token.class,
+.token.class-name,
+.token.pseudo-class,
+.token.bold                                 { color: var(--colorA); }
+
+.token.string,
+.token.command,
+.token.code                                 { color: var(--colorB); }
+
+.token.regex,
+.token.cdata,
+.token.punctuation,
+.token.atrule                               { color: var(--colorC); }
+
+.token.function,
+.token.namespace,
+.token.pseudo-element,
+.token.id,
+.token.url-reference .token.variable,
+.token.attr-name,
+.token.title,
+.token.title .token.punctuation             { color: var(--colorD); }
+
+.token.keyword,
+.token.important,
+.token.rule,
+.token.selector,
+.token.prolog,
+.token.builtin,
+.token.italic                               { color: var(--colorE); }
+
+.token.deleted,
+.token.doctype,
+.token.namespace                            { color: var(--colorF); }
+
+.token.doctype,
+.token.macro.property {
+  color: var(--color9);
+}
+
+.token.inserted {
+  background-color: var(--color7);
+  color: var(--colorB);
+}
+
+.token.deleted {
+  background-color: var(--color7);
+  color: var(--color9);
+}
+
+
+/* JSON */
+.language-json .token.property {
+  color: var(--color9);
+}
+
+.language-markup .token.tag .token.punctuation {
+  color: var(--color8);
+}
+
+
+/* CSS */
+code.language-css,
+.language-css .token.function {
+  color: var(--colorD);
+}
+
+
+/* YAML */
+.language-yaml .token.atrule {
+  color: var(--colorB);
+}
+
+code.language-yaml {
+  color: var(--color4);
+}
+
+
+/* Ruby */
+.language-ruby .token.function {
+  color: var(--colorD);
+}
+
+
+/* Markdown */
+.language-markdown .token.url {
+  color: var(--color9);
+}
+
+
+/* Makefile */
+.language-makefile .token.symbol {
+  color: var(--color9);
+}
+
+.language-makefile .token.variable {
+  color: var(--color8);
+}
+
+.language-makefile .token.builtin {
+  color: var(--colorD);
+}
+
+
+/* Bash */
+.language-bash .token.keyword {
+  color: var(--colorC);
+}
